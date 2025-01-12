@@ -26,7 +26,7 @@ int main() {
         }
 
         if (guess < randomNumber) {
-            std::cout << "Too low. Try again: ";
+            std::cout << "Too low Try again: ";
         } else if (guess > randomNumber) {
             std::cout << "Too high. Try again: ";
         } else {
